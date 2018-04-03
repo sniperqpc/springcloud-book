@@ -29,6 +29,9 @@ zuul:
 server:
   port: 5000
   
+management:
+  port: 5001
+  
 spring:
   rabbitmq:
     host: localhost

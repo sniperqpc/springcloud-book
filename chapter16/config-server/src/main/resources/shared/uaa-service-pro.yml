@@ -16,5 +16,9 @@ spring:
     password: guest
     publisher-confirms: true
     virtual-host: /
+
 server:
-  port: 9999
+  port: 7000
+
+management:
+  port: 7001

@@ -1,5 +1,8 @@
 server:
-  port: 8763
+  port: 8000
+  
+management:
+  port: 8001
 
 spring:
   datasource:

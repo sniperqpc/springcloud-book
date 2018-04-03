@@ -1,5 +1,5 @@
 server:
-  port: 8762
+  port: 6000
 
 
 spring:
@@ -21,4 +21,6 @@ spring:
     publisher-confirms: true
     virtual-host: /
 
-foo: foo version 1
+    
+management:
+  port: 6001

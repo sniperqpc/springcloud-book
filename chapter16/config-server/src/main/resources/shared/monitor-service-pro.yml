@@ -1,5 +1,5 @@
-server:
-  port: 8766
+#server:
+#  port: 8866
 security.basic.enabled: false
 
 spring:
@@ -12,5 +12,4 @@ spring:
     virtual-host: /
 
 management:
-  security:
-    enabled: false
+  port: 8867
