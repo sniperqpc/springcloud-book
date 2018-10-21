@@ -17,4 +17,4 @@ spring:
       turbine:
         clusters: default
         #location: monitor-service
-        location: http://192.168.7.160:8989/hystrix.stream
+        location: http://127.0.0.1:8989/hystrix.stream
