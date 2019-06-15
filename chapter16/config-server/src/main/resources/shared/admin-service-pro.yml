@@ -1,20 +1,6 @@
 server:
   port: 9998
 
-security:
-  user:
-    name: admin
-    password: 123456
-
 management:
-  port: 9999
-
-spring:
-  boot:
-    admin:
-      routes:
-        endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream,activiti
-      turbine:
-        clusters: default
-        #location: monitor-service
-        location: http://127.0.0.1:8989/hystrix.stream
+  server:
+    port: 9999

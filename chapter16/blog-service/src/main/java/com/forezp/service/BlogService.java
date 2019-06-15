@@ -40,7 +40,7 @@ public class BlogService {
 
 
     public BlogDetailDTO findBlogDetail(Long id) {
-        Blog blog = blogDao.findOne(id);
+        Blog blog = blogDao.getOne(id);
         if (null == blog) {
             throw new CommonException(ErrorCode.BLOG_IS_NOT_EXIST);
         }

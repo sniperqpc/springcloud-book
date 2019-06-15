@@ -30,7 +30,8 @@ server:
   port: 5000
   
 management:
-  port: 5001
+  server:
+    port: 5001
   
 spring:
   rabbitmq:

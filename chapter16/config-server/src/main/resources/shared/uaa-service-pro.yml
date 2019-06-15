@@ -21,4 +21,5 @@ server:
   port: 7000
 
 management:
-  port: 7001
+  server:
+    port:  7001

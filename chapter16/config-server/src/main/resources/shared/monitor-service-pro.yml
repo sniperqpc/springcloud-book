@@ -12,4 +12,5 @@ spring:
     virtual-host: /
 
 management:
-  port: 8867
+  server:
+    port: 8867

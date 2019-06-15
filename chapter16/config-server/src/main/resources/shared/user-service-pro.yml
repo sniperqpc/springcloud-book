@@ -23,4 +23,5 @@ spring:
 
     
 management:
-  port: 6001
+  server:
+    port: 6001

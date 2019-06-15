@@ -21,4 +21,5 @@ server:
   port: 9897
   
 management:
-  port: 9898
+  server:
+    port: 9898

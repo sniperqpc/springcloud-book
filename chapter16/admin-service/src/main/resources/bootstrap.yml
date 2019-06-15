@@ -8,9 +8,9 @@ spring:
   profiles:
     active: pro
 
-
-
-
+logging:
+  level:
+    ROOT: debug
 
 
 
