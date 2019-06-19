@@ -4,3 +4,9 @@ server:
 management:
   server:
     port: 9999
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: admin
+      user.password: 123456

@@ -41,4 +41,14 @@ spring:
     password: guest
     publisher-confirms: true
     virtual-host: /
+  boot:
+    admin:
+      client:
+        instance:
+          metadata:
+            tags:
+              environment: pro #using the metadata
 
+info:
+  tags:
+    environment: pro #using the info endpoint

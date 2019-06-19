@@ -8,9 +8,6 @@ spring:
   profiles:
     active: pro
 
-logging:
-  level:
-    ROOT: debug
-
-
-
+eureka:
+  client:
+    register-with-eureka: false

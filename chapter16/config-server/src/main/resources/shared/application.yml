@@ -36,6 +36,13 @@ feign:
     enabled: true
     
 spring:
+  zipkin:
+    sender:
+      type: rabbit
   sleuth:
     sampler:
       percentage: 1
+
+zipkin:
+  rabbitmq:
+    queue: zipkin

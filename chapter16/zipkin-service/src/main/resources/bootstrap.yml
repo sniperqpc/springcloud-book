@@ -8,4 +8,25 @@ spring:
       fail-fast: true
   profiles:
     active: pro
+  sleuth:
+    enabled: false
+    sampler:
+      percentage: 1
 
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: 127.0.0.1:5672
+      username: guest
+      password: guest
+      queue: zipkin
+  storage:
+    elasticsearch:
+      cluster: elasticsearch
+      max-requests: 64
+      index-replicas: 1
+      hosts: 127.0.0.1:9200
+      index: zipkin
+      index-shards: 5
+    StorageComponent: elasticsearch
+    type: elasticsearch

@@ -8,5 +8,5 @@ spring:
   profiles:
     active: pro
 
-
-
+logging:
+  file: build/${spring.application.name}.log
